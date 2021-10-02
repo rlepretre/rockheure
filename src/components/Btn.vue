@@ -2,6 +2,7 @@
   <div class="rounded-md shadow-xl">
     <a
       :href="link"
+      target="_blank"
       class="
         w-full
         flex
@@ -27,11 +28,10 @@
 
 <script>
 export default {
-
   props: {
     link: {
-      default: "#"
-    }
+      default: "#",
+    },
   },
   setup() {
     return {};
