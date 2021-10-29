@@ -5,12 +5,14 @@
         <h1 class="text-3xl font-bold">2019</h1>
         <h1 class="text-xl font-semibold my-4">
           <a
+            class="hover:underline"
             href="https://www.facebook.com/media/set/?vanity=rockheure&amp;set=a.983357335339705"
             target="blank"
           >
             Elise in Chains</a
           >.
           <a
+            class="hover:underline"
             href="https://www.facebook.com/media/set/?vanity=rockheure&amp;set=a.988784824796956"
             target="blank"
           >
@@ -27,6 +29,7 @@
         <h1 class="text-3xl font-bold">2018</h1>
         <h1 class="text-xl font-semibold my-4">
           <a
+            class="hover:underline"
             href="https://www.facebook.com/pg/rockheure/photos/?tab=album&amp;album_id=741130619562379"
             target="blank"
           >
@@ -43,6 +46,7 @@
         <h1 class="text-3xl font-bold">Novembre 2017</h1>
         <h1 class="text-xl font-semibold my-4">
           <a
+            class="hover:underline"
             href="https://www.facebook.com/pg/rockheure/photos/"
             target="blank"
           >
@@ -59,6 +63,7 @@
         <h1 class="text-3xl font-bold">Mars 2017</h1>
         <h1 class="text-xl font-semibold my-4">
           <a
+            class="hover:underline"
             href="https://www.facebook.com/pg/rockheure/photos/?tab=album&amp;album_id=427705040904940"
             target="blank"
           >
@@ -74,7 +79,11 @@
       <div class="m-auto my-6">
         <h1 class="text-3xl font-bold">2016</h1>
         <h1 class="text-xl font-semibold my-4">
-          <a href="/photos/2016/index.html" target="blank">
+          <a
+            class="hover:underline"
+            href="/photos/2016/index.html"
+            target="blank"
+          >
             Dandy Shoes. Eagles Road. Pilgrims.
           </a>
         </h1>
@@ -87,57 +96,76 @@
         <h1 class="text-3xl font-bold">2015</h1>
         <h1 class="text-xl font-semibold my-4">
           <a
+            class="hover:underline"
             href="https://www.facebook.com/media/set/?set=a.805378456252379.1073741979.162938833829681&amp;type=3"
             target="blank"
           >
             Majestic Mojo &amp; The Old Bananas</a
           >.
           <a
+            class="hover:underline"
             href="https://www.facebook.com/media/set/?set=a.805433446246880.1073741980.162938833829681&amp;type=3"
             target="blank"
           >
             Lady Cover</a
           >.
           <a
+            class="hover:underline"
             href="https://www.facebook.com/media/set/?set=a.806174586172766.1073741981.162938833829681&amp;type=3"
             target="blank"
           >
             Mister Cover</a
           >.
         </h1>
+        <img
+          class="shadow rounded object-cover w-full"
+          src="/history/2015.jpg"
+        />
       </div>
       <div class="m-auto my-6">
         <h1 class="text-3xl font-bold">2014</h1>
         <h1 class="text-xl font-semibold my-4">
           <a
+            class="hover:underline"
             href="https://www.facebook.com/media/set/?set=a.608150422641851.1073741916.162938833829681&amp;type=3"
             target="blank"
           >
             Pilgrims. Mister Cover.</a
           >
         </h1>
+        <img
+          class="shadow rounded object-cover w-full"
+          src="/history/2014.jpg"
+        />
       </div>
       <div class="m-auto my-6">
         <h1 class="text-3xl font-bold">2013</h1>
         <h1 class="text-xl font-semibold my-4">
           <a
+            class="hover:underline"
             href="https://www.facebook.com/media/set/?set=a.425139674276261.1073741843.162938833829681&amp;type=3"
             target="blank"
           >
             Arphaxad</a
           >.
           <a
+            class="hover:underline"
             href="https://www.facebook.com/media/set/?set=a.425125497611012.1073741842.162938833829681&amp;type=3"
             target="blank"
           >
             Mister Cover</a
           >.
         </h1>
+        <img
+          class="shadow rounded object-cover w-full"
+          src="/history/2013.jpg"
+        />
       </div>
       <div class="m-auto my-6">
         <h1 class="text-3xl font-bold">2011</h1>
         <h1 class="text-xl font-semibold my-4">
           <a
+            class="hover:underline"
             href="https://www.facebook.com/Tchoumi/media_set?set=a.10150378080318107.353158.637778106&amp;type=3 "
             target="blank"
           >
@@ -148,7 +176,7 @@
       <div class="m-auto my-6">
         <h1 class="text-3xl font-bold">2010</h1>
         <h1 class="text-xl font-semibold my-4">
-          <a href="/photos/2010/u2/" target="blank">
+          <a class="hover:underline" href="/photos/2010/u2/" target="blank">
             Noisy. Mister Cover plays U2.</a
           >
         </h1>

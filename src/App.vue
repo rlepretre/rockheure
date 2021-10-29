@@ -182,7 +182,8 @@ import Home from "./layouts/Home.vue";
     </div>
     <Carousel v-show="$route.name == 'Home'"></Carousel>
   </div>
-  <LogoCloud></LogoCloud>
+  <div class="mx-auto justify-center" ><LogoCloud></LogoCloud></div>
+  
 </template>
 <script>
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/vue";

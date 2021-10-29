@@ -8,10 +8,10 @@
         /> -->
       <video
         autoplay
+        loop
         muted
-        @ended="onEnd"
         class="h-hull w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-        :src="currentVid"
+        src="/videos/2.mp4"
       ></video>
     </div>
     <!-- <button @click="toggle">show</button> -->
@@ -34,15 +34,19 @@ export default {
     const videos = [
       "/videos/2.mp4",
       "/videos/3.mp4",
-      "/videos/7.mp4",
-      "/videos/17.mp4",
+      // "/videos/7.mp4",
+      // "/videos/17.mp4",
     ];
     const startSlide = () => {
       timer.value = setInterval(next, 4000);
     };
 
     const next = () => {
-      step.value += 1;
+      if(step.value < 1){
+          step.value += 1;
+      } else {
+        step.value = 0;
+      }
     };
 
     onMounted(() => {

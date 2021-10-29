@@ -8,7 +8,7 @@
         <h2 class="text-left text-2xl font-bold m-6">Préventes 18€</h2>
         <p class="mx-6 mb-6">Cloture des préventes le 10 Novembre 2021.</p>
         <p class="mx-6 mb-6">Gratuit pour les moins de 12 ans</p>
-        <p class="text-sm font-semibold text-red-600">
+        <p class="mx-6 text-sm font-semibold text-red-600">
           Covid Safe Ticket et pièce d'identité requis
         </p>
       </div>
@@ -26,13 +26,10 @@
         <p class="mx-6 mb-6">
           Attention: la salle ne peut acceuillir plus de 800 personnes.
         </p>
-        <p class="mx-6 mb-6">Gratuit pour les moins de 12 ans</p>
-
-        <p class="text-sm font-semibold text-red-600">
-          Covid Safe Ticket et pièce d'identité requis
-        </p>
       </div>
-      <img class="hidden md:flex flex-1 w-2/3" src="/img/queue.svg" />
+      <div class="hidden md:flex flex-1 w-2/3">
+        <img src="/img/queue.svg" />
+      </div>
     </div>
   </div>
 </template>

@@ -17,9 +17,14 @@
         f-f-l
       "
     >
-      <div class="grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-4 w-full">
-        <div v-for="s in sponsors" class="pb-8 lg:pb-0">
-          <img :src="'/sponsors/' + s + '.jpg'" width="143" height="46" />
+      <div class="grid sm:grid-cols-3 grid-cols-1 lg:grid-cols-4 gap-4 w-full">
+        <div
+          v-for="s in sponsors"
+          class="pb-8 lg:pb-0 m-auto"
+        >
+          <a :href="s.href" target="blank">
+            <img :src="'/sponsors/' + s.file" />
+          </a>
         </div>
       </div>
     </div>
@@ -29,14 +34,25 @@
 export default {
   setup() {
     const sponsors = [
-      "classic21",
-      "bara",
-      "buror",
-      "cerfontaine",
-      "werion",
-      "skylane",
-      "sunbrero",
-      "superdesfagnes",
+      { file: "michaux.jpg", href: "https://michauxassurances.be/" },
+      { file: "uniwan.png", href: "https://uniwan.be/" },
+      { file: "renard.jpg", href: "https://www.garagerenard.be/" },
+      { file: "n5carwash.jpg", href: "https://www.n5carwash.be/fr" },
+      { file: "cerfontaine.jpg", href: "https://www.cerfontaine.be/" },
+      { file: "dero.jpg", href: "https://www.garagedero.be/" },
+      { file: "beone.png", href: "https://www.beonegroup.be/" },
+      { file: "drone2be.jpg", href: "https://facebook.com/Drone2be/" },
+      { file: "alterius.jpg", href: "https://www.alterius.be/" },
+      { file: "terradog.jpg", href: "https://www.terradog.be" },
+      { file: "malpaix.png", href: "https://www.drinkmalpaix.be/" },
+      { file: "cecili-z.png", href: "https://www.cecili-z.be/" },
+      { file: "migeotte.jpg", href: "http://migeotte-conseil.be/fr/" },
+      { file: "garage_sauvage.jpg", href: "http://www.garage-sauvage.be/" },
+      { file: "deltaplac.jpg", href: "https://www.deltaplac.com/" },
+      {
+        file: "bougard.jpg", href: "http://www.bougard.be/fr/philippeville/assurances/",
+      },
+      { file: "lvp-piscines.jpg", href: "https://www.lvp-piscines.be/" },
     ];
     return {
       sponsors,

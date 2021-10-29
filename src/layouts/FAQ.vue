@@ -3,7 +3,7 @@
     <div class="w-full max-w-3xl p-2 mx-auto bg-white rounded-2xl">
       <h1 class="m-4 text-3xl font-bold">Des questions ?</h1>
 
-      <Disclosure v-slot="{ open }">
+      <!-- <Disclosure v-slot="{ open }">
         <DisclosureButton
           class="
             flex
@@ -106,9 +106,9 @@
           Si vous aussi vous souhaitez donner moins d'argent à l'État et plus
           d'argent à l'ASBL Rock'Heure, faut aussi demander au chef
         </DisclosurePanel>
-      </Disclosure>
+      </Disclosure> -->
       <p class="my-2">
-        Si vous n'avez pas trouver la réponse à votre question n'hésitez pas à
+        N'hésitez pas à
         nous envoyer un e-mail à
         <a
           class="text-blue-600"
@@ -116,7 +116,7 @@
           >contact@rockheure.be</a
         >
         ou retrouvez nous sur notre
-        <a class="text-blue-600" href="https://www.facebook.com/rockheure">
+        <a class="text-blue-600" href="https://www.facebook.com/rockheure" target="_blank">
           page Facebook</a
         >.
       </p>

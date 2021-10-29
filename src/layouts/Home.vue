@@ -26,7 +26,7 @@
       >
         <span class="block xl:inline">Samedi 13 Novembre</span>
         {{ " " }}
-        <span class="block text-blue-600 xl:inline">Rock'Heure Festival </span>
+        <span class="block text-blue-600 xl:inline">Rock'Heure </span>
       </h1>
       <p
         class="
