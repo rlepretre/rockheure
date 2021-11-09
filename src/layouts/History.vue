@@ -172,6 +172,10 @@
             Noisy. Mister Cover.</a
           >
         </h1>
+        <img
+          class="shadow rounded object-cover w-full"
+          src="/history/2011.jpg"
+        />
       </div>
       <div class="m-auto my-6">
         <h1 class="text-3xl font-bold">2010</h1>
@@ -180,6 +184,10 @@
             Noisy. Mister Cover plays U2.</a
           >
         </h1>
+        <img
+          class="shadow rounded object-cover w-full"
+          src="/history/2010.jpg"
+        />
       </div>
     </div>
   </div>

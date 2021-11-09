@@ -62,7 +62,7 @@ import Home from "./layouts/Home.vue";
                 <div class="flex items-center justify-between w-full md:w-auto">
                   <a href="/">
                     <span class="sr-only">Rock'Heure</span>
-                    <img class="h-8 w-auto sm:h-10" src="/img/logo.jpg" />
+                    <img class="w-auto sm:h-10 lg:h-20" src="/img/logo.jpg" />
                   </a>
                   <div class="-mr-2 flex items-center md:hidden">
                     <PopoverButton
@@ -131,7 +131,7 @@ import Home from "./layouts/Home.vue";
               >
                 <div class="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <img class="h-8 w-auto" src="/public/img/logo.jpg" alt="" />
+                    <img class="sm:h-10 lg:h-20 w-auto" src="/public/img/logo.jpg" alt="" />
                   </div>
                   <div class="-mr-2">
                     <PopoverButton

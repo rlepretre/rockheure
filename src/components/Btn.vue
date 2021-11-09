@@ -15,8 +15,8 @@
         font-medium
         rounded-md
         text-white
-        bg-blue-600
-        hover:bg-blue-700
+        bg-red-600
+        hover:bg-red-700
         md:py-4
         md:text-lg
         md:px-10

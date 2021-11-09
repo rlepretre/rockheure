@@ -111,12 +111,12 @@
         N'hésitez pas à
         nous envoyer un e-mail à
         <a
-          class="text-blue-600"
+          class="text-red-600"
           href="mailto:contact@rockheure.be?subject=RockHeure.be&amp;body=Bonjour"
           >contact@rockheure.be</a
         >
         ou retrouvez nous sur notre
-        <a class="text-blue-600" href="https://www.facebook.com/rockheure" target="_blank">
+        <a class="text-red-600" href="https://www.facebook.com/rockheure" target="_blank">
           page Facebook</a
         >.
       </p>

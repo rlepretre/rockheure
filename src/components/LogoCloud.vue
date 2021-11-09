@@ -53,6 +53,9 @@ export default {
         file: "bougard.jpg", href: "http://www.bougard.be/fr/philippeville/assurances/",
       },
       { file: "lvp-piscines.jpg", href: "https://www.lvp-piscines.be/" },
+      { file: "vilainetfilsl.jpg", href: "https://vilainetfils.be/" },
+      { file: "lacaravanepasse.png", href: "https://lacaravanepasse.eu/" },
+
     ];
     return {
       sponsors,
