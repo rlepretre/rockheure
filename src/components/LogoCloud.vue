@@ -18,10 +18,7 @@
       "
     >
       <div class="grid sm:grid-cols-3 grid-cols-1 lg:grid-cols-4 gap-4 w-full">
-        <div
-          v-for="s in sponsors"
-          class="pb-8 lg:pb-0 m-auto"
-        >
+        <div v-for="s in sponsors" class="pb-8 lg:pb-0 m-auto">
           <a :href="s.href" target="blank">
             <img :src="'/sponsors/' + s.file" />
           </a>
@@ -50,12 +47,36 @@ export default {
       { file: "garage_sauvage.jpg", href: "http://www.garage-sauvage.be/" },
       { file: "deltaplac.jpg", href: "https://www.deltaplac.com/" },
       {
-        file: "bougard.jpg", href: "http://www.bougard.be/fr/philippeville/assurances/",
+        file: "bougard.jpg",
+        href: "http://www.bougard.be/fr/philippeville/assurances/",
       },
       { file: "lvp-piscines.jpg", href: "https://www.lvp-piscines.be/" },
       { file: "vilainetfilsl.jpg", href: "https://vilainetfils.be/" },
+      { file: "NEW_LOGO_2021.PNG", href: "https://www.homedesign.schmidt" },
+      { file: "logo_waveft.png", href: "https://wavedistil.be/" },
+      { file: "sunbrero.jpg", href: "https://www.sunbrero.be" },
+      { file: "ramaekers.jpg", href: "http://www.ramaekers-construction.be/" },
       { file: "lacaravanepasse.png", href: "https://lacaravanepasse.eu/" },
-
+      {
+        file: "artisan_sellier.jpg",
+        href: "https://artisansellier.be/",
+      },
+      {
+        file: "toussaint_avocats.gif",
+        href: "https://www.toussaint-avocats.be/",
+      },
+      {
+        file: "cx-com.png",
+        href: "https://www.cx-com.be/",
+      },
+      {
+        file: "delhaize_chimay.jpg",
+        href: "https://www.delhaize.be/fr/storedetails/ad-chimay",
+      },
+      {
+        file: "rvd.jpg",
+        href: "https://rvdistribution.be/",
+      },
     ];
     return {
       sponsors,
